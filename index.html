@@ -18,7 +18,7 @@
           Open any preview in a separate browser tab to view it at its exact ad size.
         </p>
         <div class="hero-meta">
-          <span>6 ad sizes</span>
+          <span>8 ad sizes</span>
           <span>2 animation loops</span>
           <span>30 seconds total</span>
         </div>
@@ -31,14 +31,14 @@
             <span class="section-kicker">Creative set</span>
             <h2>GDN Banner Ads</h2>
           </div>
-          <span class="section-count">6 sizes</span>
+          <span class="section-count">8 sizes</span>
         </div>
         <div class="ad-grid" id="grid"></div>
       </section>
 
       <footer>
         <span>Noah’s Ark Autumn 2026 GDN Campaign</span>
-        <span>Latest delivery preview · 1 October 2026</span>
+        <span>Latest delivery preview · 1 October 2026 (HiDPI)</span>
       </footer>
     </main>
 
@@ -47,9 +47,11 @@
         [300, 600, 0.62],
         [320, 480, 0.76],
         [300, 250, 1],
+        [336, 280, 1],
         [250, 250, 1],
-        [728, 90, 1],
         [320, 100, 1],
+        [970, 250, 1],
+        [728, 90, 1],
       ];
       const grid = document.querySelector("#grid");
       for (const [width, height, scale] of ads) {

@@ -1,4 +1,4 @@
 # Noah's Ark Autumn 2026 – AMPHTML Ad Previews
 
-Client preview gallery for the 6 GDN AMPHTML banner sizes (250x250, 300x250, 300x600, 320x100, 320x480, 728x90).
+Client preview gallery for the 8 GDN AMPHTML banner sizes (250x250, 300x250, 300x600, 320x100, 320x480, 336x280, 728x90, 970x250).
 Each ad lives in `ads/<size>/index.html`. 15-second animation × 2 loops (30s).
